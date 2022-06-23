@@ -1,0 +1,30 @@
+<template>
+  <div class="observe">
+    <el-row :gutter="5">
+      <el-col :span="12">
+          <Search/>
+      </el-col>
+      <el-col :span="12">
+          <Category/>
+      </el-col>
+    </el-row>
+  </div>
+</template>
+
+<script>
+import Search from './Search'
+import Category from './Category'
+export default {
+  name:'Observe',
+  components:{
+    Search,
+    Category
+  }
+}
+</script>
+
+<style scoped>
+.observe {
+  margin-top: 12px;
+}
+</style>
