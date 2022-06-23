@@ -23,6 +23,12 @@ npm run build:stage
 npm run build:prod
 ```
 
+```
+超级管理员
+账号：admin
+密码：111111
+```
+
 ## 项目预览
 ### 登录
 ![输入图片说明](preview/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.png)
